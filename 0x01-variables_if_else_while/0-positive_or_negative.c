@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Description: main - Prints out a string to stdout.
- * Return: Always 0 success.
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -11,12 +12,13 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
-        else
+	else
 		printf("%d is negative\n", n);
 
-        return (0);
+	return (0);
 }
