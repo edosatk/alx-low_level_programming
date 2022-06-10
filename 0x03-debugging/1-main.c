@@ -2,7 +2,7 @@
 /**
 * main - causes an infinite loop
 * Return: 0
-*Desctiption:\\o/\n dancing symbol
+* Description: \\o/ infinite loop avoided
 */
 int main(void)
 {
