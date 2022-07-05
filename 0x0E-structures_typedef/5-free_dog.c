@@ -1,18 +1,17 @@
+#include <stdlib.h>
 #include "dog.h"
 
 /**
-*free_dog - Frees dog
-*@d: dog to be freed
-*
+* free_dog - initialize a variable type struct dog
+* @d: dog's details
 */
+
 void free_dog(dog_t *d)
 {
-if (d == NULL)
-return;
-
+if (d)
+{
 free(d->name);
 free(d->owner);
 free(d);
 }
-Footer
-© 2022 GitHub, Inc.
+}
