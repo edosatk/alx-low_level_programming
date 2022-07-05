@@ -3,7 +3,7 @@
 
 /**
 * free_dog - initialize a variable type struct dog
-* @d: dog's details
+* @d: dog's details.
 */
 
 void free_dog(dog_t *d)
